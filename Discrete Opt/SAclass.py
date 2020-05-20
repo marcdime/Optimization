@@ -2,7 +2,6 @@
 '''
 
 
-from satsp import utilities as hp
 import pandas as pd
 import numpy as np
 import math
@@ -29,15 +28,10 @@ class SimulatedAnnealing:
 
         
 		
-        # Load test instance if none is given
-        if self.city_list is None and self.dist_matrix is None:
-            self.city_list = hp.LoadDefault()
-		
-		  # Calculate distance matrix
+       	  # Calculate distance matrix
         if self.city_list is not None:
             self.city_list = pd.DataFrame(self.city_list)
-        if self.dist_matrix is None:
-            self.dist_matrix = hp.CalDist(self.city_list)
+        
         else:
             self.dist_matrix = pd.DataFrame(self.dist_matrix)
         if self.city_list is None:
