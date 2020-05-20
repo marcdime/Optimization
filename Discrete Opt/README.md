@@ -27,4 +27,4 @@ pip install satsp
 
 ![Djibouti path](ImgRes/TSP_Qatar_path.png)
 
-   - The solution vectors can be found in the notebook . (*Best TSP tour*) 
+   - The solution vectors can be found in the notebook (*Best TSP tour*). 
