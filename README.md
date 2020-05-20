@@ -1,4 +1,4 @@
-# Metaheuristics
+# Metaheuristic optimization
 Discrete/Continuous optimization, Unimodal/Mutimodal problems, Python 
 ---
 
@@ -14,11 +14,11 @@ The repo is split into two part :
 In this part, we use the "satsp" package (version 0.9) to solve the TSP problem.
 
 - Algorithm : 
-There are a a couple of algorithms and implementations out there for discrete optimization. Simulated annealing is one of the straightforward  
+There are a couple of algorithms and implementations out there for discrete optimization. Simulated annealing is one of the straightforward  algorithm to solve this kind of "bob" problem. Owing to the simplicity in , the compromise between the time calculation and the performance can be satisfied.    
 - Requirements : First install it by the command :
 
 ```
 pip install satsp
 ```
-
-- 
+- Set of cities : we investigate Djibouti (38 cities) and Qatar (192 cities)
+- Benchmark : 
