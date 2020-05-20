@@ -4,7 +4,7 @@ Discrete/Continuous optimization, Unimodal/Mutimodal problems, Python
 
 # Preamble :
 
-The repo is split into two part : 
+The repo is split into two parts : 
 
 - Part 1 : Travelling Saleman problem (TSP). It is to find the shortest path, so man can visit all cities without visiting the same twice.
 
