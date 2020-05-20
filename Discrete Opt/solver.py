@@ -1,3 +1,6 @@
+''' from satsp project (pypi.org)
+'''
+
 from satsp.SAclass import SimulatedAnnealing
 
 sa_obj = None
