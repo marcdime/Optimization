@@ -3,7 +3,6 @@ Discrete/Continuous optimization, Unimodal/Mutimodal problems, Python
 
 
 # Preamble :
----
 
 The repo is split into two part : 
 
