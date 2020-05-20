@@ -1,4 +1,4 @@
-''' from satsp project (pypi.org)
+''' adapted from satsp project (pypi.org)
 '''
 
 
