@@ -5,7 +5,7 @@ In this part, we use "satsp" package (version 0.9) to solve the TSP problem.
 - Algorithm : 
 There are a couple of algorithms and implementations out there for discrete optimization. **Simulated annealing** is one of the straightforward  algorithm to solve this kind of the "blob" enigma. Thanks to the simplicity of the algorithm and its implementation, a compromise between the time calculation and the performance can be satisfied. Indeed, a good result (low fitness) can be reached out with a short calculation time. Finally, the algorithm was found to be very stable and consistent for each run.  
 
-- Requirements : install the package by the command :
+- Install the package by the command :
 
 ```
 pip install satsp
@@ -16,8 +16,8 @@ pip install satsp
 
 - Benchmark : 
    - For a dimension of 38, the best path (lowest distance) was obtained after about 23 epochs with a cooling rate of 0.2 and number of epoch iterations (epoch_length) = 100. Total time of calculation = 0.58s (over 50 epochs).
-![Convergence curves](/ImgRes/TSP_Djibouti.png)
-![Djibouti path](/ImgRes/TSP_Djibouti_path.png)
+![Convergence curves](ImgRes/TSP_Djibouti.png)
+![Djibouti path](ImgRes/TSP_Djibouti_path.png)
 
    
    - For a dimension of 194, the best path (lowest distance) was obtained after about 100 epochs with a cooling rate of 0.4 and number of epoch iterations (epoch_length) = 500. Total time of calculation = 25.9s (over 200 epochs)
