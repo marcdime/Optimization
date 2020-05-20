@@ -14,6 +14,8 @@ Requirements :
 - pygmo2
 - numpy
 - matplotlib
+- time
+- datetime
 
 # Part 1 : Discrete problem
 ---
