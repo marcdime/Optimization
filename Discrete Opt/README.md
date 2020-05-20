@@ -16,8 +16,11 @@ pip install satsp
 
 - Benchmark : 
    - For a dimension of 38, the best path (lowest distance) was obtained after about 23 epochs with a cooling rate of 0.2 and number of epoch iterations (epoch_length) = 100. Total time of calculation = 0.58s (over 50 epochs).
-![Convergence curves](ImgRes/TSP_Djibouti.png)
-![Djibouti path](ImgRes/TSP_Djibouti_path.png)
+![Convergence curves](ImgRes/TSP_Djbouti.png)
 
+![Djibouti path](ImgRes/TSP_Djbouti_path.png)
    
-   - For a dimension of 194, the best path (lowest distance) was obtained after about 100 epochs with a cooling rate of 0.4 and number of epoch iterations (epoch_length) = 500. Total time of calculation = 25.9s (over 200 epochs)
+   - For a dimension of 194, the best path (lowest distance) was obtained after about 100 epochs with a cooling rate of 0.4 and number of epoch iterations (epoch_length) = 500. Total time of calculation = 25.9s (over 200 epochs).
+![Convergence curves](ImgRes/TSP_Qatar.png)
+
+![Djibouti path](ImgRes/TSP_Qatar_path.png)
