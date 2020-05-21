@@ -17,8 +17,9 @@ Copy all .py files in a folder, import files and run as shown in the notebook.
 Functions investigated are conventional functions plus a shift (or biais) which is given in a separated file named shift.py. The values of the vectors x for optimization are also found in this file.  
 
 - Parameters : 
-Classical parameters such as number of individuals in the populaton, number of generations are taken as inputs in each running function. Additional parameters are also givent as inputs for particular case, i. e. self confidence, inertia, swarm confidence when running PSO. The parameters are modified to check the influence of these parameters for the performance and the time calculation. 
+Classical parameters such as number of individuals in the populaton, number of generations are taken as inputs in each running function. Additional parameters are also givent as inputs for particular case, i. e. self confidence, inertia, swarm confidence when running PSO. The parameters are modified to check the influence of these parameters for the performance and the time calculation.
+Note that the stopping criterion is the number of function evaluations (except for Self-adaptive Differential Evolution algorithm, that is function tolerance) and the convergence shown is the best run after a number of *epoch_runs*   
+   
 
 - Benchmark : 
-All results (calculation time, convergence, function evaluations, etc....) can be found in the notebook. 
-   
+All the results (fitness, calculation time, convergence, function evaluations, etc....) can be found in the notebook. 
