@@ -4,7 +4,7 @@
 In this part, we use "pygmo" package (version 2.16.0) to solve the optimization problem of either unimodal functions (global minimum) or multimodal functions (global + local minimums).
 
 - Algorithm : 
-There are a couple of algorithms and implementations out there for discrete optimization. **Simulated annealing** is one of the straightforward  algorithm to solve this kind of the "blob" enigma. Thanks to the simplicity of the algorithm and its implementation, a compromise between the time calculation and the performance can be satisfied. Indeed, a good result (low fitness) can be reached out with a short calculation time. Finally, the algorithm was found to be very stable and consistent for each run.  
+There are several algorithms for continuous optimization such as Particle Swarm Optimization, Differential Evolution, Bee colony, etc... even algorithms mostly dedicated to the discrete problems like Simulated Annealing (SA), Genetic Algorithm. Cosidering the latters, it turns out that the continous problems reveal difficulty to be efficiently solved, especially high-dimension problems and presence of local munimuns, due to bounding limits and trapping (many parameters to control exluding population, number of generation: probability of mutation, cross, cooling ....). In this study   
 
 - Install the package by the command :
 
