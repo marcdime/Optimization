@@ -94,7 +94,7 @@ class shifted_Rosenbrock(object):
 		global value_shift
 		global biais
 		
-		identity = np.zeros(len(x))        
+		identity = np.ones(len(x))        
 		z = x - self.value_shift[:len(x)] + identity
 		rosen = [100*(z[i]**2 - z[i+1])**2 + (z[i+1]-1)**2 for i in range(len(x) - 1)] 
 		return [np.sum(rosen) + self.biais]
