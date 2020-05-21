@@ -27,7 +27,7 @@ pip install satsp
    
 ![Convergence curves](ImgRes/TSP_Qatar.png)
 
-![Djibouti path](ImgRes/TSP_Qatar_path.png)
+![Qatar path](ImgRes/TSP_Qatar_path.png)
 
 
    - The solution vectors can be found in the notebook (*Best TSP tour*). 
