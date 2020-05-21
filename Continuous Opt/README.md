@@ -11,21 +11,14 @@ There are several algorithms for continuous optimization such as Particle Swarm 
 ```
 pip install pygmo
 ```
-- Set of datasets : The  are defined   
+Copy all .py files in a folder, import files and run as shown in the notebook.
 
-- Parameters : the mainsteam parameters of simulated annealing are temperatures and cooling rate (alpha). Here we tune the number of epochs which is a stopping criteria or a running time, and it is somehow equivalent to given temperatures. The "best" resutls are shown after a couple of runs.     
+- Functions and vectors x, shift values : 
+Functions investigated are conventional functions plus a shift (or biais) which is given in a separated file named shift.py. The values of the vectors x for optimization are also found in this file.  
+
+- Parameters : 
+Classical parameters such as number of individuals in the populaton, number of generations are taken as inputs in each running function. Additional parameters are also givent as inputs for particular case, i. e. self confidence, inertia, swarm confidence when running PSO. The parameters are modified to check the influence of these parameters for the performance and the time calculation. 
 
 - Benchmark : 
-   - For a dimension of 38, the best path (lowest distance) was obtained after about 23 epochs with a cooling rate of 0.2 and number of epoch iterations (epoch_length) = 100. Total time of calculation = 0.58s (over 50 epochs).
+All results (calculation time, convergence, function evaluations, etc....) can be found in the notebook. 
    
-![Convergence curves](ImgRes/TSP_Djbouti.png)
-
-![Djibouti path](ImgRes/TSP_Djbouti_path.png)
-   
-   - For a dimension of 194, the best path (lowest distance) was obtained after about 100 epochs with a cooling rate of 0.4 and number of epoch iterations (epoch_length) = 500. Total time of calculation = 21.1s (over 200 epochs).
-   
-![Convergence curves](ImgRes/TSP_Qatar.png)
-
-![Djibouti path](ImgRes/TSP_Qatar_path.png)
-
-   - The solution vectors can be found in the notebook . (*Best TSP tour*) 
